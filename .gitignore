@@ -1,22 +1,15 @@
-# Python
-__pycache__/
-*.pyc
-*.pyo
-*.pyd
-
+# IDE / OS
 .idea/
+.vscode/
+__pycache__/
+.DS_Store
 
-# Virtual environment
+# Python env
 venv/
-env/
-.venv/
+.env
 
-# Jupyter checkpoints
+# Jupyter
 .ipynb_checkpoints/
 
-# Logs
-*.log
-
-# OS
-.DS_Store
-Thumbs.db
+# Big data (if any)
+data/
