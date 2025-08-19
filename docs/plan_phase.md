@@ -72,11 +72,9 @@ The model should output a continuous numerical value representing the predicted 
 
 ---
 
-## (Optional) Success metrics & acceptance criteria
-- **Primary metric**: RMSE (target: ≤ 15% of the median price; refine after baseline).
-- **Secondary**: MAE, MAPE (for interpretability), and R².
-- **Operational**: P95 latency of prediction ≤ 200 ms in the web app.
-
+## Success metrics & acceptance criteria
+- **Primary metric**: RMSE 
+- **Secondary**: MAE and R².
 ---
 
 ## Decisions Summary (Plan Phase)
@@ -92,7 +90,6 @@ The model should output a continuous numerical value representing the predicted 
 | Algorithms                                | Linear Regression / Random Forest Regressor                               |
 | Tooling                                   | pandas, numpy, sklearn, matplotlib/seaborn, Streamlit, Heroku |
 ---
-=======
 | Topic                                    | Decision                             |
 |------------------------------------------|--------------------------------------|
 | Learning approach                         | **Offline (Batch)**                  |
@@ -103,4 +100,3 @@ The model should output a continuous numerical value representing the predicted 
 | Algorithms                                | Linear/Ridge/Lasso → RF/GBM/XGB/LGBM |
 | Tooling                                   | pandas, numpy, sklearn, XGBoost/LGBM, matplotlib/seaborn, Streamlit, Heroku |
 ---
->>>>>>> d95586544229cdfe58d0f1ec90eba4ad29ffc295
