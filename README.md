@@ -20,7 +20,8 @@ The project follows this pipeline:
 9. **Deployment**  
 
 ---
-
+![Image](https://github.com/user-attachments/assets/4d467f4f-7a6a-4966-aa83-d08e56cdffd9)
+---
 ## PACE Workflow
 
 **1. Plan**  
