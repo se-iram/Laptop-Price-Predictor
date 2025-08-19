@@ -81,6 +81,7 @@ The model should output a continuous numerical value representing the predicted 
 
 ## Decisions Summary (Plan Phase)
 
+<<<<<<< HEAD
 | Topic                                    | Decision                                                                  |
 |------------------------------------------|---------------------------------------------------------------------------|
 | Learning approach                         | **Offline (Batch)**                                                       |
@@ -91,3 +92,15 @@ The model should output a continuous numerical value representing the predicted 
 | Algorithms                                | Linear Regression / Random Forest Regressor                               |
 | Tooling                                   | pandas, numpy, sklearn, matplotlib/seaborn, Streamlit, Heroku |
 ---
+=======
+| Topic                                    | Decision                             |
+|------------------------------------------|--------------------------------------|
+| Learning approach                         | **Offline (Batch)**                  |
+| Learning method                           | **Model-based**                      |
+| ML paradigm                               | **Supervised**                       |
+| Task type                                 | **Regression**                       |
+| Output                                    | **Numeric price**                    |
+| Algorithms                                | Linear/Ridge/Lasso → RF/GBM/XGB/LGBM |
+| Tooling                                   | pandas, numpy, sklearn, XGBoost/LGBM, matplotlib/seaborn, Streamlit, Heroku |
+---
+>>>>>>> d95586544229cdfe58d0f1ec90eba4ad29ffc295
