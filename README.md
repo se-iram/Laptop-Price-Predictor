@@ -1,5 +1,6 @@
 # Laptop Price Predictor (My personal project)
 live: https://my-laptop-price-predictor.streamlit.app/
+
 **Type:** Web App  
 **Purpose:** Predict laptop prices based on hardware and configuration attributes (RAM, CPU, GPU, storage, display, etc.) to help users estimate cost before purchase.
 
