@@ -29,7 +29,7 @@ The goal of this phase is to prepare high-quality features that can effectively 
 - **Workstations** are the most expensive, though less frequent.  
 - **Notebooks** dominate the dataset and represent mid-range prices.  
 - **Gaming laptops** and **Ultrabooks** are also costly compared to notebooks.  
-➡ **Conclusion:** Laptop type strongly influences cost.
+**-> Conclusion:** Laptop type strongly influences cost.
 
 ---
 
@@ -38,7 +38,7 @@ The goal of this phase is to prepare high-quality features that can effectively 
 #### Screen Size (Inches)
 - Larger screens tend to have higher prices.  
 - Medium-sized laptops (~13–15 inches) show similar price ranges.  
-➡ **Conclusion:** Screen size affects price, but the correlation is not very strong.
+**-> Conclusion:** Screen size affects price, but the correlation is not very strong.
 
 #### Price Distribution
 - Target variable (Price) was **skewed**.  
@@ -55,14 +55,14 @@ The goal of this phase is to prepare high-quality features that can effectively 
   - **X_res** and **Y_res** (resolution dimensions)
 - Constructed new feature:
   - **PPI (Pixels Per Inch)** = function of resolution and screen size  
-➡ **Conclusion:** PPI better represents screen quality, so we dropped `ScreenResolution`, `X_res`, `Y_res`, and `Inches`.
+**-> Conclusion:** PPI better represents screen quality, so we dropped `ScreenResolution`, `X_res`, `Y_res`, and `Inches`.
 
 ### 3.2 CPU
 - Original `CPU` column had 118 unique strings.  
 - Created meaningful features:
   - **CpuBrand** (Intel i3/i5/i7, Celeron, AMD, etc.)  
   - **CpuSpeed (GHz)**  
-➡ **Conclusion:** Both CPU brand and speed are significant price predictors.
+**-> Conclusion:** Both CPU brand and speed are significant price predictors.
 
 ### 3.3 RAM
 - Clear **positive correlation** with price → more RAM = higher price.  
@@ -74,7 +74,7 @@ The goal of this phase is to prepare high-quality features that can effectively 
   - **SSD** shows a strong positive correlation (0.67).  
   - **HDD** weak negative correlation (−0.09).  
   - **Hybrid** and **Flash** negligible effect.  
-➡ Used **SSD and HDD** for modeling, dropped Hybrid and Flash.
+-> Used **SSD and HDD** for modeling, dropped Hybrid and Flash.
 
 ### 3.5 GPU
 - Extracted **GpuBrand**.  
@@ -99,4 +99,4 @@ The goal of this phase is to prepare high-quality features that can effectively 
 
 ---
 
-➡ At the end of this phase, we obtained a **cleaned, feature-rich dataset** ready for modeling.
+-> At the end of this phase, we obtained a **cleaned, feature-rich dataset** ready for modeling.
