@@ -68,8 +68,7 @@ The project follows this pipeline:
 - Python, Streamlit  
 - pandas, numpy, scikit-learn, matplotlib, seaborn  
 - Random Forest Regressor, Linear Regression, RandomizedSearchCV 
-- Deployment: Hugging Face Space (previously Heroku)
-
+- Deployment: Streamlit Community Cloud
 ---
 
 #### Note: Documentation for each phase can be found in the **doc** directory. 
